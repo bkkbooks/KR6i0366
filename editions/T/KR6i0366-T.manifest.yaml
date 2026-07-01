@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0366/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0366/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 盂蘭盆經讚述
+  identifiers:
+    krp: KR6i0366
+    cbeta: T85n2781
+    cbeta_old_id: T85n2781
+    authorityid: CA0004801
+    json_key: T2781
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2781.xml
+    old_id: T85n2781
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0366_000-T.yaml, hash: 'sha256:41c87da31ed9afa50d4160c9e23be9a877dab8453a2053976a8e8dad0a28087d'}
+  - {seq: 1, filename: KR6i0366_001-T.yaml, hash: 'sha256:f0a7483f2981cbb0079cc8473efe158a0a5bf152e2734325473071bdde5b4182'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0366_000-T.markers.yaml, hash: 'sha256:9a09282b7ff1a8f2f6b34d23104327931fb219705005f598a0d0c10c28976e5b'}
+  - {seq: 1, role: markers, filename: assets/KR6i0366_001-T.markers.yaml, hash: 'sha256:8cfbcba1ae27568847287f55784784ce82608c0b273a96f8c80a5279a6020140'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0366_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 5154
+  label: 盂蘭盆經讚述
+  type: juan
+  level: 1
+hash: sha256:62c89968c5dbd428d986f8ce34e5cf8af4c7f50527d01489a26aadc791b939c8

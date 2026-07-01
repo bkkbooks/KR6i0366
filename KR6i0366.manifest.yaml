@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6i0366/v1
+canonical_location: https://kanripo.org/bkk/KR6i0366/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 盂蘭盆經讚述
+  identifiers:
+    alt_id:
+    - T85n2781
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2781.xml
+    old_id: T85n2781
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0366_000.yaml, hash: 'sha256:41c87da31ed9afa50d4160c9e23be9a877dab8453a2053976a8e8dad0a28087d'}
+  - {seq: 1, filename: KR6i0366_001.yaml, hash: 'sha256:96f2dc8af644691f5ecb2984ae45906f7c8261ba8759809a428e5bce819673ca'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0366_001.markers.yaml, hash: 'sha256:7126b3c731beceef7b3cae31c08820d1f8c6fd1f9adc0387c1a38dccb4804c1c'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0366_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 5154
+  label: 盂蘭盆經讚述
+  type: juan
+  level: 1
+hash: sha256:9fd47a27777d916578613c956753d733408c0368dce426db8edb914481d79ad4
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
