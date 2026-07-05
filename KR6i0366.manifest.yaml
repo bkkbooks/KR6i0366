@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0366_000.yaml, hash: 'sha256:41c87da31ed9afa50d4160c9e23be9a877dab8453a2053976a8e8dad0a28087d'}
-  - {seq: 1, filename: KR6i0366_001.yaml, hash: 'sha256:96f2dc8af644691f5ecb2984ae45906f7c8261ba8759809a428e5bce819673ca'}
+  - {seq: 1, filename: KR6i0366_001.yaml, hash: 'sha256:f0a7483f2981cbb0079cc8473efe158a0a5bf152e2734325473071bdde5b4182'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0366_001.markers.yaml, hash: 'sha256:7126b3c731beceef7b3cae31c08820d1f8c6fd1f9adc0387c1a38dccb4804c1c'}
+  - {seq: 0, role: markers, filename: assets/KR6i0366_000.markers.yaml, hash: 'sha256:967e4dd246c4291cb7cea81c82dd7af582d868340d6852c7e0c380094ef0f45e'}
+  - {seq: 1, role: markers, filename: assets/KR6i0366_001.markers.yaml, hash: 'sha256:e8e25b95ac9157cd575ef13021853d5ae9a36bc4ebeb7edf35e02d59229dadaa'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 盂蘭盆經讚述
   type: juan
   level: 1
-hash: sha256:9fd47a27777d916578613c956753d733408c0368dce426db8edb914481d79ad4
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:e73f0e0754a27dc84bc91e82231337474fc4fa199cfe4d73f985b3bb54f48d6c
