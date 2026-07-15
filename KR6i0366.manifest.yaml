@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0366/v1
 canonical_location: https://kanripo.org/bkk/KR6i0366/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 盂蘭盆經讚述
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0366_000.yaml, hash: 'sha256:41c87da31ed9afa50d4160c9e23be9a877dab8453a2053976a8e8dad0a28087d'}
-  - {seq: 1, filename: KR6i0366_001.yaml, hash: 'sha256:f0a7483f2981cbb0079cc8473efe158a0a5bf152e2734325473071bdde5b4182'}
+  - {seq: 1, filename: KR6i0366_001.yaml, hash: 'sha256:0aaefc3e89726738eeda948fcfc46f2897795640cfcd294e0e2a2c210b1a1e48'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0366_000.markers.yaml, hash: 'sha256:967e4dd246c4291cb7cea81c82dd7af582d868340d6852c7e0c380094ef0f45e'}
-  - {seq: 1, role: markers, filename: assets/KR6i0366_001.markers.yaml, hash: 'sha256:e8e25b95ac9157cd575ef13021853d5ae9a36bc4ebeb7edf35e02d59229dadaa'}
+  - {seq: 1, role: markers, filename: assets/KR6i0366_001.markers.yaml, hash: 'sha256:e950e9f32f8a3b7d0e5c17a8ac9672ba36cd93de89ccbee6c4a6e03b4bad0872'}
 table_of_contents:
 - ref:
     seq: 1
@@ -37,4 +37,7 @@ table_of_contents:
   label: 盂蘭盆經讚述
   type: juan
   level: 1
-hash: sha256:e73f0e0754a27dc84bc91e82231337474fc4fa199cfe4d73f985b3bb54f48d6c
+hash: sha256:0e2f79979fda73dcaec37ae370f29f06f43bdbac76d33def60cb776538526d5e
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
